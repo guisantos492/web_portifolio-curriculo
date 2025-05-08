@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Bungee+Spice&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Special+Gothic+Expanded+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000000;
+    color: #F6F6F6;
+    height: 90vh;
+    margin: 20px;
+}
+
+/*nav*/
+.cabeçalho_menu{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 280px;
+    padding: 16px;
+    background-color: #000000;
+}
+
+.cabeçalho_menu_link{
+    width: 280px;
+    padding: 10px;
+}
+
+.conteudo{
+    display: flex; 
+    flex-direction: row;
+    gap: 70px;
+    justify-content: space-between;
+    margin: 7% 15% 15%;
+}
+
+.conteudo__esquerda{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+h1{
+    font-size: 36px;
+    font-family: "Bungee Shade", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px 0px;
+}
+
+.conteudo__esquerda__subtitulo{
+    font-size: 28px;
+    font-weight: 300;
+    font-style: normal;
+    margin: 5px 0px;
+}
+
+.conteudo__esquerda__saudacao{
+    margin-top: 10px;
+}
+
+.conteudo__esquerda__botoes{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.conteudo__esquerda__botoes__botao{
+    margin-left: 5px;
+}
+
+a{
+    background-color: #2e2e2e;
+    color:rgb(255, 243, 243);
+    font-size: 16px;
+    width: 280px;
+    padding: 16px;
+    border-radius: 15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover{
+    background-color: #f18d09;
+}
+
+.foto{
+    border-radius: 15px;
+    width: 50%;
+}
+
+.rodape{
+    background-color: #2e2e2e;
+    text-align: center;
+    margin: 0% 0% 30%;
+}
+
+@media(max-width: 1024px){
+
+    .conteudo{
+        flex-direction: column-reverse;
+    }
+
+    .conteudo__esquerda{
+        width: auto;
+    }
+
+    .foto{
+        width: auto;
+    }
+
+    .conteudo__esquerda__botoes{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .cabeçalho_menu{
+        flex-direction: row;
+        align-items: center;
+    }
+
+}
