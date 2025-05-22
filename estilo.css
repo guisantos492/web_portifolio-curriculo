@@ -28,6 +28,7 @@ body{
     padding: 10px;
 }
 
+/*corpo, duas caixas em linha*/
 .conteudo{
     display: flex; 
     flex-direction: row;
@@ -36,12 +37,14 @@ body{
     margin: 7% 15% 15%;
 }
 
+/*caixa da esquerda, textos*/
 .conteudo__esquerda{
     display: flex;
     flex-direction: column;
     width: 50%;
 }
 
+/*configuracao geral da tag h1, titulo*/
 h1{
     font-size: 36px;
     font-family: "Bungee Shade", sans-serif;
@@ -50,6 +53,7 @@ h1{
     margin: 10px 0px;
 }
 
+/*configuraçao subtitulo*/
 .conteudo__esquerda__subtitulo{
     font-size: 28px;
     font-weight: 300;
@@ -57,6 +61,7 @@ h1{
     margin: 5px 0px;
 }
 
+/*configuraçao margem do paragrafo*/
 .conteudo__esquerda__saudacao{
     margin-top: 10px;
 }
