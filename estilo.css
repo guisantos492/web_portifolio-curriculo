@@ -61,21 +61,24 @@ h1{
     margin: 5px 0px;
 }
 
-/*configuraçao margem do paragrafo*/
+/*configuraçao margem da saudacao*/
 .conteudo__esquerda__saudacao{
     margin-top: 10px;
 }
 
+/*configuracao dos tres botoes, em linha*/  
 .conteudo__esquerda__botoes{
     display: flex;
     flex-direction: row;
     margin-top: 50px;
 }
 
+/*margem botoes*/
 .conteudo__esquerda__botoes__botao{
     margin-left: 5px;
 }
 
+/*configuracao geral da tag a*/
 a{
     background-color: #2e2e2e;
     color:rgb(255, 243, 243);
@@ -87,21 +90,25 @@ a{
     text-align: center;
 }
 
+/*funcao para mudar a cor do botao ao passar o mouse*/
 a:hover{
     background-color: #f18d09;
 }
 
+/*margem e borda da foto*/
 .foto{
     border-radius: 15px;
     width: 50%;
 }
 
+/*configuracao do rodape*/
 .rodape{
     background-color: #2e2e2e;
     text-align: center;
     margin: 0% 0% 30%;
 }
 
+/*redimencionamento para aparelhos mobile*/
 @media(max-width: 1024px){
 
     .conteudo{
