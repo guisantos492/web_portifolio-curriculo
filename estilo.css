@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Bungee+Spice&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Special+Gothic+Expanded+One&display=swap');
 
+/*reset das configuraçoes padroes do browser*/
 *{
     margin: 0;
     padding: 0;
 }
 
+/*configuracao geral do body*/
 body{
     background-color: #000000;
     color: #F6F6F6;
