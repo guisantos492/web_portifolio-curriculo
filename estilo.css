@@ -111,14 +111,27 @@ a:hover{
 }
 
 /*edicao do curriculo*/
+.conteudo__curriculo{
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo__curriculo__divisoes{
+    background-color: #2e2e2e73;
+    padding: 16px;
+    border-radius: 15px;
+    width: 50%;
+    margin: 2% 0% 1% 5%;
+}
+
 .ensino_medio{
     margin: 1px 0px 1px 0px;
 }
 
-.conteudo_esquerda_titulo{
+.titulo{
     font-size: 30px;
     font-family: arial;
-    margin: 2px 0px 1px 0px;
+    margin: 2px 0px 2px 0px;
 }
 
 
@@ -146,4 +159,4 @@ a:hover{
         flex-direction: row;
         align-items: center;
     }
-
+}
