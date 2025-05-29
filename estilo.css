@@ -94,7 +94,8 @@ a{
 
 /*funcao para mudar a cor do botao ao passar o mouse*/
 a:hover{
-    background-color: #f18d09;
+    background-color: #f6f6f6;
+    color: #000000;
 }
 
 /*margem e borda da foto*/
