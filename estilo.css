@@ -139,5 +139,10 @@ a:hover{
 
 /*edicao do curriculo*/
 .ensino_medio{
-    margin: 5% 0% 5% 0%
+    margin: 5% 0% 5% 0%;
+}
+
+.conteudo_esquerda_titulo{
+    font-size: 30px;
+    font-family: arial;
 }
